@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Clone Netflix</title>
+  <link rel="stylesheet" href="css/js/sty.css" />
+  <link rel="stylesheet" href="css/js/net.js" />
+  <script>
+    function scrollTrilho(direction) {
+      const trilho = document.getElementById('trilho');
+      const scrollAmount = 200; // Adjust this value as needed
+
+      if (direction === 'left') {
+        trilho.scrollLeft -= scrollAmount;
+      } else {
+        trilho.scrollLeft += scrollAmount;
+      }
+    }
+  </script>
+  
+  
+</head>
+
+<body>
+     <header>
+     <!-- Parte de navegação do menu / Cabeçalho do site-->
+     <a class="img"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Logo netflix">
+     </a>
+     <div class="opcoes">
+     <a>Início</a>
+     <a> Séries</a>
+     <a>Filmes</a>
+     <a>Minha Lista</a>
+     <a>Bombando</a>
+    </div>
+    <div class="end">
+    <div class="conta">
+      <a class="lupa"><img src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-4r9dtbbw.png" alt="lupa"></a>
+      <a ><img src="https://static-00.iconduck.com/assets.00/notifications-icon-448x512-sms1ml1l.png" alt="notificação"></a>
+    </div>
+    <a class="user"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="user"></a>
+  </div>
+
+    </header>
+    
+     <main>
+      
+     <div class = "start">
+     
+     <a class = "netlogo"></a>
+     <h1 class="TituloDestaque">Deadpool</h1>
+     <p class = "sinopse">Wade Wilson é um ex-agente especial que passou a trabalhar como mercenário. Seu mundo é destruído quando 
+      um cientista maligno o tortura e o desfigura completamente. O experimento brutal transforma Wade em Deadpool, 
+      que ganha poderes especiais de cura e uma força aprimorada. Com a ajuda de aliados poderosos e um senso de humor 
+      mais desbocado e cínico do que nunca, o irreverente anti-herói usa habilidades e métodos violentos para se vingar 
+      do homem que quase acabou com a sua vida.</p>
+      <div class= "Botao">
+      <a class="assistir">Assistir</a>
+      <a class="info">Mais Informações</a>
+    </div>
+  </div>
+  <h1 class="tituloTrilho">Assistir Novamente</h1>
+  
+      <div class="trilho">  
+      <button class="arrow-left">←</button>    
+      <p class = "item current-item -animation"><img src="img\3a1aff67-a92c-47ba-8577-15e90c1d1ecd.png" alt="trilho"></p>
+      <p class = "item current-item -animation"><img src="img\3cdedabb-eb77-46e6-b1a5-852cb86cf5eb.png" alt="trilho"></p>
+      <p class = "item current-item -animation"><img src="img\36a19b5e-d81d-4af7-9deb-959cad91a8df.png" alt="trilho"></p>
+      <p class = "item current-item -animation"><img src="img\4312c8df-073b-4593-8c51-bf74422481da.png" alt="trilho"></p>
+      <p class = "item current-item -animation"><img src="img\d010ed16-13a3-4c94-a1a0-bfcaa2707200.png" alt="trilho"></p>
+      <p class = "item current-item -animation"><img src="img\de8a9c25-22f3-4ebb-8ff1-69c83b67363d.png" alt="trilho"></p>
+      <p class = "item current-item -animation"><img src="img\e6fa5ad2-da03-4e80-8ffa-2e77791058c9.png" alt="trilho"></p>
+      <button class="arrow-right">→</button>
+      </div>
+      <h1 class="tituloTrilho">Top 10</h1>
+    <div class="top10">
+      <button class="arrow-left">←</button>
+      <p><img src="img\poster_01.png" alt=""></p>
+      <p><img src="img\poster_02.png" alt=""></p>
+      <p><img src="img\poster_03.png" alt=""></p>
+      <p><img src="img\poster_04.png" alt=""></p>
+      <p><img src="img\poster_05.png" alt=""></p>
+      <p><img src="img\poster_06.png" alt=""></p>
+      <p><img src="img\poster_07.png" alt=""></p>
+      <button class="arrow-right">→</button>
+    </div>
+    <h1 class="tituloTrilho">Series</h1>
+    <div class="series">
+      <button class="arrow-left">←</button>
+      <p><img src="img\poster_001.png" alt=""></p>
+      <p><img src="img\poster_002.png" alt=""></p>
+      <p><img src="img\poster_003.png" alt=""></p>
+      <p><img src="img\poster_004.png" alt=""></p>
+      <p><img src="img\poster_005.png" alt=""></p>
+      <p><img src="img\poster_006.png" alt=""></p>
+      <p><img src="img\poster_007.png" alt=""></p>
+      <button class="arrow-right">→</button>
+    </div>
+    <h1 class="tituloTrilho">Humor ácido</h1>
+    <div class="humorAcido">
+      <button class="arrow-left">←</button>
+      <p class="prop"><img src="img\poster_08.png" alt=""></p>
+      <p><img src="img\poster_09.png" alt=""></p>
+      <p><img src="img\poster_10.png" alt=""></p>
+      <p><img src="img\poster_11.png" alt=""></p>
+      <p><img src="img\poster_12.png" alt=""></p>
+      <p><img src="img\poster_13.png" alt=""></p>
+      <p><img src="img\poster_14.png" alt=""></p>
+      <button class="arrow-right">→</button>
+    </div>
+
+
+
+      </main>
+
+     <footer class="">
+      <div class="redes-sociais">
+        <a class="face"> <img src="https://static.vecteezy.com/system/resources/previews/022/257/063/non_2x/icon-media-social-facebook-free-vector.jpg" alt=""></a>
+        <a><img src="https://static.vecteezy.com/system/resources/previews/022/257/067/non_2x/icon-media-social-instagram-free-vector.jpg" alt=""></a>
+        <a><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" alt=""></a>
+        <a><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png" alt=""></a>  
+      </div>
+      <div class="rodape">
+     <ul class="colum-um">
+      <li>Idioma e Legendas</li>
+      <li>Imprensa</li>
+      <li>Privacidade</li>
+      <li>Entre em contato</li>
+     <li class="codigo">Código do serviço</li>
+     <li class="info-netflix">Feito com amor Nicolas Muggiati <3</li>
+    </ul>
+
+     <ul class="colum-dois">
+     <li>Audiodescrição</li>
+     <li>Relações com Investidores</li>
+     <li>Avisos Legais</li>
+    </ul>
+
+    <ul class="colum-tres">
+      <li>Centro de ajuda</li>
+      <li>Carreiras</li>
+      <li>Preferencia de Cookies</li>
+    </ul>
+    <ul class="colum-quarto">
+      <li>Cartão pré-pago</li>
+      <li>Termos de uso</li>
+      <li>Informações corporativas</li>
+    </ul>
+  </div>
+     </footer>
+</body>
+</html>

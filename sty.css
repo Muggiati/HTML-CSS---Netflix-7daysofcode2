@@ -1,0 +1,228 @@
+
+body {
+  background-color: black;
+  color: azure;
+  background-image:linear-gradient(to bottom, transparent, rgba(19, 19, 19, 0.904), rgb(0, 0, 0)), url(https://wallpapergod.com/images/hd/movie-1920X1080-wallpaper-5ruwp378qad7cvgc.jpeg);
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.netlogo{
+  margin-left: 4vh;
+  margin-bottom: 5px;
+  color: red;
+}
+h1{
+  margin-left: 4vh;
+  margin-top: 4px;
+}
+p {
+  margin-left: 4vh;
+  max-width: 65vh;
+  overflow-wrap: break-word;
+  margin-bottom: 16px;
+  font-size: larger;
+}
+
+
+.assistir {
+  color:black;
+  background-color: azure;
+  padding: 16px 14%;
+  font-size:large;
+  margin-right: 16px;
+  border-radius: 2px;
+  height: 48px;
+  }
+
+  .info {
+    background-color: rgba(69, 69, 70, 0.897);
+    padding: 16px 14%;
+    border-radius: 2px;
+    height: 48px;
+  }
+
+  .start{
+  height: 500px;
+  margin-top: 24vh;
+}
+.Botao {
+  width: 625px;
+  margin-left: 4vh;
+  font-weight: bold;
+  cursor: pointer;
+  }
+
+  .Botao a{
+    height: 50px;
+    }
+
+  header{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    }
+  .opcoes a{
+    margin-right: 16px;
+    }
+  .opcoes a:hover{
+    color: rgba(255, 255, 255, 0.39);
+    cursor: pointer;
+  }
+
+  .img img {
+    margin-right: 30px;
+    margin-top: 8px;
+    width:110px;
+    margin-left: 40px;
+  }
+  .img:hover img {
+    cursor: pointer;
+  }
+
+  .conta img{
+    width:24px;
+    margin-right: 16px;
+  }
+  .user img{
+    width:32px;
+  }
+  .user:hover{
+    cursor: pointer;
+  }
+  .lupa{
+    filter: invert(1);
+  }
+
+  .end{
+  display: flex;
+  margin-left: auto;
+  margin-right: 60px;
+  align-items: center;
+  }
+  .conta:hover a{
+    cursor: pointer;
+  }
+
+  
+   .top10 p, .series p, .humorAcido p, .trilho p{
+    transition: .35s;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 0px;
+   }
+ 
+  
+  
+  .top10:hover>:not(:hover),.series:hover>:not(:hover),.trilho:hover>:not(:hover),.humorAcido:hover>:not(:hover){
+    opacity: 0.6;
+  }
+  .trilho, .top10, .series, .humorAcido{
+    display: flex;
+    margin-right: 0px;
+    margin-left: 4vh;
+    overflow-x: hidden;
+  }
+.tituloTrilho {
+  margin-bottom: 0;
+  margin-left: 4vh;
+}
+.sinopse{ 
+  margin-bottom: 4vh;
+}
+
+
+.arrow-right {   
+  position:absolute;
+  margin-left: -20px;
+  height: 192px;
+  font-size: 20px;
+  right:0;
+  color: white;
+  text-align: center;
+  line-height: auto;
+  border: none;
+  opacity: 0.9;
+  background: transparent;
+  cursor: pointer;
+}
+
+.arrow-left{
+  position: relative;
+  margin-right: -20px;
+  height: 192px;
+  width: 32px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.658);
+  text-align: center;
+  line-height: auto;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 2;
+  
+}
+
+.arrow-left:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+ 
+}
+
+li{
+  list-style:none;
+  margin: 10px 0 10px 0;
+}
+
+.rodape{
+  display: flex;
+  width: 1424px;
+  height: 308px;
+  color: rgba(255, 255, 255, 0.39);
+  justify-content: space-between;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+li.info-netflix{
+  color: rgba(255, 0, 0, 0.534);
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.colum-um{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+
+
+li.codigo{
+  margin-top: 30px;
+  border: 1px solid;
+  width: 160px;
+  padding: 5px;
+  border-color: rgba(255, 255, 255, 0.39);
+  text-align: center;
+}
+
+li:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.158);
+}
+
+.redes-sociais img{
+  width: 35px;
+  filter: invert(1);
+  margin: 5px;
+}
+.face {
+  margin-left: 35px;
+}
+
+.redes-sociais img:hover{
+  cursor: pointer;
+}
